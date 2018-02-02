@@ -18,11 +18,11 @@
 # Inherit from m8d device
 $(call inherit-product, device/htc/m8d/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common CypherOS stuff.
+$(call inherit-product, vendor/aoscp/configs/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_m8d
+PRODUCT_NAME := aoscp_m8d
 PRODUCT_DEVICE := m8d
 PRODUCT_BRAND := htc
 PRODUCT_MODEL := m8d
